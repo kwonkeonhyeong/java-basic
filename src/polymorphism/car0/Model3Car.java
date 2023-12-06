@@ -1,13 +1,13 @@
 package src.polymorphism.car0;
 
-public class K3Car {
+public class Model3Car {
     public void startEngine() {
-        System.out.println("K3Car.startEngine");
+        System.out.println("Model3Car.startEngine");
     }
     public void offEngine() {
-        System.out.println("K3Car.offEngine");
+        System.out.println("Model3Car.offEngine");
     }
     public void pressAccelerator() {
-        System.out.println("K3Car.pressAccelerator");
+        System.out.println("Model3Car.pressAccelerator");
     }
 }

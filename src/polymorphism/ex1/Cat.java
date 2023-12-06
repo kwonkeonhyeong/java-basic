@@ -1,7 +1,7 @@
 package src.polymorphism.ex1;
 
-public class Caw {
+public class Cat {
     public void sound() {
-        System.out.println("음메");
+        System.out.println("야옹");
     }
 }

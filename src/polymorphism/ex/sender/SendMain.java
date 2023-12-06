@@ -1,4 +1,4 @@
-package src.polymorphism.ex;
+package src.polymorphism.ex.sender;
 
 public class SendMain {
     public static void main(String[] args) {

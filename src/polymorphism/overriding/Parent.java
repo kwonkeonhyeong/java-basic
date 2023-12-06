@@ -1,2 +1,9 @@
-package src.polymorphism.overriding;public class Parent {
+package src.polymorphism.overriding;
+
+public class Parent {
+    public String value = "parent";
+
+    public void method() {
+        System.out.println("Parent.method");
+    }
 }

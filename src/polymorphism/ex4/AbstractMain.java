@@ -1,4 +1,4 @@
-package src.polymorphism.ex3;
+package src.polymorphism.ex4;
 
 public class AbstractMain {
     public static void main(String[] args) {
@@ -16,6 +16,10 @@ public class AbstractMain {
         soundAnimal(dog);
         soundAnimal(cat);
         soundAnimal(caw);
+
+        moveAnimal(dog);
+        moveAnimal(cat);
+        moveAnimal(caw);
     }
 
     // 변하지 않는 부분
@@ -23,5 +27,11 @@ public class AbstractMain {
         System.out.println("동물 소리 테스트 시작");
         animal.sound();
         System.out.println("동물 소리 테스트 종료");
+    }
+
+    private static void moveAnimal(AbstractAnimal animal) {
+        System.out.println("동물 이동 테스트 시작");
+        animal.move();
+        System.out.println("동물 이동 테스트 종료");
     }
 }

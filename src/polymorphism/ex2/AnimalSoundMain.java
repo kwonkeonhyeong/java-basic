@@ -1,4 +1,4 @@
-package src.polymorphism.ex1;
+package src.polymorphism.ex2;
 
 public class AnimalSoundMain {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package src.polymorphism.ex;
+package src.polymorphism.ex.sender;
 
 public class FaceBookSender implements Sender{
     @Override

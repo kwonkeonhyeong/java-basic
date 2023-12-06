@@ -1,6 +1,7 @@
-package src.polymorphism.ex1;
+package src.polymorphism.ex2;
 
-public class Cat {
+public class Cat extends Animal{
+    @Override
     public void sound() {
         System.out.println("야옹");
     }
